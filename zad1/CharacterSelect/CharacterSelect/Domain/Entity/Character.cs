@@ -12,6 +12,8 @@ public abstract class Character
     public int Strength { get; protected set; }
     public int Intelligence { get; protected set; }
     public int Agility { get; protected set; }
+    public int Luck { get; protected set; }
+    public int Charisma { get; protected set; }
 
     protected Character(string name, CharacterClass @class)
     {
@@ -23,6 +25,6 @@ public abstract class Character
     {
         Console.WriteLine($"[{Class}] {Name}");
         Console.WriteLine($"  HP: {Health}");
-        Console.WriteLine($"  STR: {Strength}  INT: {Intelligence}  AGI: {Agility}");
+        Console.WriteLine($"  STR: {Strength}  INT: {Intelligence}  AGI: {Agility} LCK: {Luck} CHR: {Charisma}");
     }
 }
