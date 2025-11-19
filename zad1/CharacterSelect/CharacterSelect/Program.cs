@@ -43,9 +43,9 @@ namespace CharacterSelect
                 Console.WriteLine(">>> Utworzono postać!");
                 character.Describe();
 
-                // Console.WriteLine("\nAkcja: atak");
-                // character.Attack();
-                //
+                 Console.WriteLine("\nAkcja: atak");
+                 character.Attack();
+                
                 // Console.WriteLine("Akcja: umiejętność specjalna");
                 // character.UseSpecial();
 

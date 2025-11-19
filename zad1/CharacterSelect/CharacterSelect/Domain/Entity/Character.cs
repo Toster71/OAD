@@ -20,6 +20,10 @@ public abstract class Character
         Name = string.IsNullOrWhiteSpace(name) ? @class.ToString() : name.Trim();
         Class = @class;
     }
+    public virtual void Attack(){
+        int Damage = Strength * 3;
+        Console.WriteLine($"{Name} Attack = {Damage} DMG");
+    }
 
     public virtual void Describe()
     {
